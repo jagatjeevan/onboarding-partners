@@ -1,0 +1,25 @@
+.addButton {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  justify-self: center;
+  margin-top: 10px;
+}
+
+.formSection {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-gap: calc(var(--app-spacer) / 4) calc(var(--app-spacer) / 2);
+  margin-bottom: var(--app-spacer);
+}
+
+.actionContainer {
+  text-align: right;
+
+  input[type="button"] {
+    margin-right: var(--app-spacer);
+    
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
