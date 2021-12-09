@@ -74,7 +74,7 @@ export function PolicyStatusMessage(props) {
   };
 
   return (
-    <fieldset>
+    <fieldset className="marginBottom">
       <legend>Policy Status Message</legend>
       {showPolicyStatusMessage()}
       <div className={policyStyles.addPolicyButton}>
