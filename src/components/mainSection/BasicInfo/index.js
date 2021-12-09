@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { withBasicInfo } from "../../../context/basicInfo";
-import ModalLayout from "../../common/ModalLayout";
-import Portal from "../../common/Portal";
+import ModalLayout from "../../common/Modal/ModalLayout";
+import Portal from "../../common/Modal/Portal";
 import AddKeyValue from "./AddKeyValue";
 import styles from "../style.module.scss";
 

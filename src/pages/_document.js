@@ -16,6 +16,7 @@ class MyDocument extends Document {
             type="text/css"
           />
           <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+          <link href="https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Aedit%3A" />
         </Head>
         <body>
           <Main />

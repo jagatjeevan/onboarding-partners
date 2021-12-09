@@ -1,11 +1,14 @@
 import { Provider as BasicInfoProvider } from "../context/basicInfo";
+import { Provider as PolicyStatusProvider } from "../context/policyStatus";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <BasicInfoProvider>
-      <Component {...pageProps} />
-    </BasicInfoProvider>
+    <PolicyStatusProvider>
+      <BasicInfoProvider>
+        <Component {...pageProps} />
+      </BasicInfoProvider>
+    </PolicyStatusProvider>
   );
 }
 

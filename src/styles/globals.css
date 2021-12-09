@@ -37,3 +37,7 @@ button, input[type="button"] {
     border-radius: var(--border-radius);
     border: 1px solid #3f3f3f;
 }
+
+.hand-pointer {
+    cursor: pointer;
+}

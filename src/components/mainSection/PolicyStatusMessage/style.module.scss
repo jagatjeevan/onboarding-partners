@@ -1,0 +1,37 @@
+.policyStatusCapsule {
+  border: 1px solid #3f3f3f;
+  border-radius: 24px;
+  margin-right: var(--app-spacer);
+  margin-top: calc(var(--app-spacer) / 2);
+  padding: calc(var(--app-spacer) / 4) calc(var(--app-spacer) / 2);
+  display: inline-block;
+  font-size: 0.6em;
+}
+
+.addPolicyButton {
+  text-align: center;
+}
+
+$status-dimension: 9px;
+.policyStatusIcon {
+  width: $status-dimension;
+  height: $status-dimension;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: 1px;
+
+  .selected & {
+    background-color: green;
+  }
+}
+
+.editIcon {
+  position: relative;
+  right: -1px;
+  bottom: -1px;
+  margin-left: 5px;
+  cursor: pointer;
+}
